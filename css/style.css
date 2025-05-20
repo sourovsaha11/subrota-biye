@@ -77,6 +77,54 @@ button:hover {
     background-color: #ff1493;
 }
 
+/* ...existing code... */
+
+/* Make button and blessing box more responsive */
+button, #funny-button {
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Responsive blessing box */
+#blessing-box {
+    padding: 24px 8vw 20px 8vw;
+    max-width: 98vw;
+    min-width: 0;
+    font-size: 1.1em;
+    word-break: break-word;
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 700px) {
+    #blessing-box {
+        padding: 18px 4vw 16px 4vw;
+        font-size: 1em;
+        max-width: 98vw;
+    }
+    button, #funny-button {
+        font-size: 1em;
+        padding: 12px 0;
+        max-width: 98vw;
+    }
+}
+
+@media (max-width: 400px) {
+    #blessing-box {
+        padding: 10px 2vw 10px 2vw;
+        font-size: 0.95em;
+    }
+    button, #funny-button {
+        font-size: 0.95em;
+        padding: 10px 0;
+        max-width: 100vw;
+    }
+}
+
+/* ...existing code... */
+
 /* Responsive styles */
 @media (max-width: 700px) {
     .container {
