@@ -79,6 +79,15 @@ button:hover {
     background-color: #ff1493;
 }
 
+.bkash-logo {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
 /* ...existing code... */
 
 /* Make button and blessing box more responsive */
