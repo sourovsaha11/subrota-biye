@@ -88,6 +88,51 @@ button:hover {
     display: inline-block;
 }
 
+
+/* countDown starts here  */
+/* 
+
+#countdown-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px #ff69b4a0;
+    padding: 18px 24px;
+    z-index: 100;
+    font-family: 'Montserrat', Arial, sans-serif;
+    min-width: 180px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+#countdown {
+    color: #b81667;
+    font-size: 1.15em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#countdown span {
+    font-size: 1.4em;
+    color: #de1212;
+    margin: 0 2px;
+}
+
+@media (max-width: 600px) {
+    #countdown-container {
+        right: 8px;
+        bottom: 8px;
+        padding: 10px 8px;
+        font-size: 0.95em;
+        min-width: 120px;
+    }
+    #countdown span {
+        font-size: 1.1em;
+    }
+} */
+
 /* ...existing code... */
 
 /* Make button and blessing box more responsive */
